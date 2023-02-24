@@ -1,5 +1,5 @@
 backend:
-  name: my-first-astro-demo
+  name: git-gateway
   repo: leon-fong/my-first-astro-demo
   branch: main
   base_url: https://my-first-astro-demo.pages.dev
