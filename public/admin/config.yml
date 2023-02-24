@@ -13,11 +13,11 @@ collections:
     folder: 'src/pages/posts'
     create: true
     fields:
-      - { label: 'Layout', name:'layout', widget: 'hidden', default: '../../layouts/MarkdownPostLayout.astro' }
-      - { label: 'Title', name:'title', widget: 'string' }
-      - { label: 'PubDate', name:'pubDate', widget: 'datetime' }
-      - { label: 'Description', name:'description', widget: 'text' }
-      - { label: 'Author', name:'author', widget: 'string' }
-      - { label: 'Image', name:'image', widget: 'string' }
-      - { label: 'Tags', name:'tags', widget: 'list' }
-      - { label: 'Body', name:'body', widget: 'markdown' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: '../../layouts/MarkdownPostLayout.astro' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'PubDate', name: 'pubDate', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'string' }
+      - { label: 'Tags', name: 'tags', widget: 'list' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
