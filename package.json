@@ -1,15 +1,17 @@
 {
-	"name": "sleepy-star",
-	"type": "module",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "astro dev",
-		"start": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview",
-		"astro": "astro"
-	},
-	"dependencies": {
-		"astro": "^2.0.9"
-	}
+  "name": "sleepy-star",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "pnpm tinacms dev -c 'astro dev'",
+    "start": "astro dev",
+    "build": "tinacms build && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@tinacms/cli": "^1.2.2",
+    "astro": "^2.0.9",
+    "tinacms": "^1.2.2"
+  }
 }
