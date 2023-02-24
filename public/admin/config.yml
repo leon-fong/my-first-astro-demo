@@ -1,8 +1,6 @@
 backend:
   name: git-gateway
-  repo: leon-fong/my-first-astro-demo
   branch: main
-  base_url: https://netlify-cms.adrianub.vercel.app
 
 media_folder: "src/assets" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/assets" # The src attribute for uploaded media will begin with /images/uploads
